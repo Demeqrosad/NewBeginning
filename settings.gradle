@@ -1,3 +1,4 @@
-rootProject.name = 'NewBeginnig'
+rootProject.name = 'NewBeginning'
+include('Stream')
 
 
