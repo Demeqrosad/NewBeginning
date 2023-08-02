@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.testing.newbeginnig.NewBeginnigApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-27T08:28:04" hostname="THINKPAD-2021" time="0.969">
+<testsuite name="com.testing.newbeginnig.NewBeginnigApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-08-02T14:39:36" hostname="DESKTOP-GECMA36" time="1.508">
   <properties/>
-  <testcase name="contextLoads()" classname="com.testing.newbeginnig.NewBeginnigApplicationTests" time="0.969"/>
-  <system-out><![CDATA[10:28:02.907 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.testing.newbeginnig.NewBeginnigApplicationTests]: NewBeginnigApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-10:28:03.046 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.testing.newbeginnig.NewBeginnigApplication for test class com.testing.newbeginnig.NewBeginnigApplicationTests
+  <testcase name="contextLoads()" classname="com.testing.newbeginnig.NewBeginnigApplicationTests" time="1.508"/>
+  <system-out><![CDATA[16:39:34.362 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.testing.newbeginnig.NewBeginnigApplicationTests]: NewBeginnigApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:39:34.553 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.testing.newbeginnig.NewBeginnigApplication for test class com.testing.newbeginnig.NewBeginnigApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -13,9 +13,9 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.1.2)
 
-2023-07-27T10:28:03.593+02:00  INFO 14796 --- [    Test worker] c.t.n.NewBeginnigApplicationTests        : Starting NewBeginnigApplicationTests using Java 17.0.8 with PID 14796 (started by demet in C:\Users\demet\IdeaProjects\NewBeginning)
-2023-07-27T10:28:03.596+02:00  INFO 14796 --- [    Test worker] c.t.n.NewBeginnigApplicationTests        : No active profile set, falling back to 1 default profile: "default"
-2023-07-27T10:28:04.267+02:00  INFO 14796 --- [    Test worker] c.t.n.NewBeginnigApplicationTests        : Started NewBeginnigApplicationTests in 1.009 seconds (process running for 2.695)
+2023-08-02T16:39:35.202+02:00  INFO 15992 --- [    Test worker] c.t.n.NewBeginnigApplicationTests        : Starting NewBeginnigApplicationTests using Java 17.0.1 with PID 15992 (started by Acer in C:\Users\Acer\IdeaProjects\NewBeginnig)
+2023-08-02T16:39:35.204+02:00  INFO 15992 --- [    Test worker] c.t.n.NewBeginnigApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2023-08-02T16:39:35.993+02:00  INFO 15992 --- [    Test worker] c.t.n.NewBeginnigApplicationTests        : Started NewBeginnigApplicationTests in 1.178 seconds (process running for 3.103)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.testing.newbeginnig.library.BookDirectoryTestSuite" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-07-27T08:28:05" hostname="THINKPAD-2021" time="0.296">
+<testsuite name="com.testing.newbeginnig.library.BookDirectoryTestSuite" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-08-02T14:39:37" hostname="DESKTOP-GECMA36" time="0.442">
   <properties/>
-  <testcase name="testListBooksWithConditionFragmentShorterThan3()" classname="com.testing.newbeginnig.library.BookDirectoryTestSuite" time="0.277"/>
-  <testcase name="testListBooksWithConditionMoreThan20()" classname="com.testing.newbeginnig.library.BookDirectoryTestSuite" time="0.012"/>
-  <testcase name="testListBooksWithConditionsReturnList()" classname="com.testing.newbeginnig.library.BookDirectoryTestSuite" time="0.002"/>
+  <testcase name="testListBooksWithConditionFragmentShorterThan3()" classname="com.testing.newbeginnig.library.BookDirectoryTestSuite" time="0.41"/>
+  <testcase name="testListBooksWithConditionMoreThan20()" classname="com.testing.newbeginnig.library.BookDirectoryTestSuite" time="0.015"/>
+  <testcase name="testListBooksWithConditionsReturnList()" classname="com.testing.newbeginnig.library.BookDirectoryTestSuite" time="0.009"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
