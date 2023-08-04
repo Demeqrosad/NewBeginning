@@ -1,10 +1,9 @@
 package com.example.hibernate.task;
 
 
-
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotNull;
 
-import javax.validation.constraints.NotNull;
 import java.util.Date;
 
 @Entity
@@ -14,6 +13,7 @@ public class Task {
     private String description;
     private Date created;
     private int duration;
+    private TaskFinancialDetails taskFinancialDetails;
 
     public Task(String description, int duration) {
         this.description = description;
@@ -45,6 +45,13 @@ public class Task {
     public int getDuration() {
         return duration;
     }
+    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    //@Column
+    @JoinColumn(name = "TASKS_FINANCIALS_ID")
+    //@JoinColumn(name = "TASK_FINANCIALS_ID")
+    public TaskFinancialDetails getTaskFinancialDetails() {
+        return taskFinancialDetails;
+    }
 
     private void setId(int id) {
         this.id = id;
@@ -60,6 +67,10 @@ public class Task {
 
     private void setDuration(int duration) {
         this.duration = duration;
+    }
+
+    public void setTaskFinancialDetails(TaskFinancialDetails taskFinancialDetails) {
+        this.taskFinancialDetails = taskFinancialDetails;
     }
 }
 
