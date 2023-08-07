@@ -26,8 +26,6 @@ public class TaskDaoTestSuite {
     @Test
     public void testTaskDaoSave() {
         //Given
-        //ApplicationContext context = new AnnotationConfigApplicationContext("com.example.hibernate.task");
-        //TaskDao taskDao = context.getBean(TaskDao.class);
         Task task = new Task(DESCRIPTION, 7);
 
         //When
