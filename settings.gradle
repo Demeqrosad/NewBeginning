@@ -1,5 +1,4 @@
 rootProject.name = 'NewBeginning'
-include('Stream')
-include('Exception')
+
 
 

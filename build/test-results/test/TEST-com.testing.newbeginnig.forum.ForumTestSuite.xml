@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.testing.newbeginnig.forum.ForumTestSuite" tests="8" skipped="0" failures="0" errors="0" timestamp="2023-08-02T14:39:37" hostname="DESKTOP-GECMA36" time="0.041">
+<testsuite name="com.testing.newbeginnig.forum.ForumTestSuite" tests="8" skipped="0" failures="0" errors="0" timestamp="2023-08-03T10:11:29" hostname="THINKPAD-2021" time="0.024">
   <properties/>
-  <testcase name="testRemovePostNotExisting()" classname="com.testing.newbeginnig.forum.ForumTestSuite" time="0.011"/>
-  <testcase name="testAddPost()" classname="com.testing.newbeginnig.forum.ForumTestSuite" time="0.004"/>
-  <testcase name="testGetPost()" classname="com.testing.newbeginnig.forum.ForumTestSuite" time="0.005"/>
+  <testcase name="testRemovePostNotExisting()" classname="com.testing.newbeginnig.forum.ForumTestSuite" time="0.005"/>
+  <testcase name="testAddPost()" classname="com.testing.newbeginnig.forum.ForumTestSuite" time="0.002"/>
+  <testcase name="testGetPost()" classname="com.testing.newbeginnig.forum.ForumTestSuite" time="0.003"/>
   <testcase name="testRemoveCommentNotExisting()" classname="com.testing.newbeginnig.forum.ForumTestSuite" time="0.002"/>
   <testcase name="testRemoveComment()" classname="com.testing.newbeginnig.forum.ForumTestSuite" time="0.002"/>
-  <testcase name="testRemovePost()" classname="com.testing.newbeginnig.forum.ForumTestSuite" time="0.002"/>
-  <testcase name="testGetComment()" classname="com.testing.newbeginnig.forum.ForumTestSuite" time="0.001"/>
-  <testcase name="testAddComment()" classname="com.testing.newbeginnig.forum.ForumTestSuite" time="0.003"/>
+  <testcase name="testRemovePost()" classname="com.testing.newbeginnig.forum.ForumTestSuite" time="0.001"/>
+  <testcase name="testGetComment()" classname="com.testing.newbeginnig.forum.ForumTestSuite" time="0.0"/>
+  <testcase name="testAddComment()" classname="com.testing.newbeginnig.forum.ForumTestSuite" time="0.001"/>
   <system-out><![CDATA[This is the beginning of tests.
 Preparing to execute test #1
 Preparing to execute test #2
